@@ -1,0 +1,27 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+.ftr{
+    background-color: #001f54;
+    padding-left: 125.2px;
+    padding-right: 125.2px;
+    margin: 0;
+}
+.navbar{
+    animation: fade-down 0.5s;
+}
+.ls-bg{
+    box-shadow: 0 0 8px 2px #001f54;
+    border-radius: 20px;
+    color: #001f54;
+}
+@keyframes fade-down{
+    0%{
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}

@@ -1,0 +1,38 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+.ftr{
+    background-color: #001f54;
+    padding-left: 125.2px;
+    padding-right: 125.2px;
+    margin: 0;
+}
+.ftr-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+  }
+.frm-cont{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+.frm{
+    height: 600px;
+    border: none;
+    box-shadow: 0 0 8px 2px #4ea5ff;
+}
+.btn-login{
+    width: 100%;
+}
+.frm-email{
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 8px 2px #4ea5ff;
+}
+.frm-password{
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 8px 2px #4ea5ff;
+}

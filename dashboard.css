@@ -1,0 +1,83 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+.ftr{
+    background-color: #001f54;
+    padding-left: 125.2px;
+    padding-right: 125.2px;
+    margin: 0;
+}
+.ftr-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.dropdown-menu li {
+    position: relative;
+}
+    .dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+    .dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+}
+
+
+.balance-section{
+    border: none;
+    box-shadow: 0 0 8px 2px #001f54;
+    height: 350px;
+    border-radius: 20px;
+}
+.recent-section{
+    border: none;
+    box-shadow: 0 0 8px 2px #001f54;
+    height: 200px;
+    border-radius: 20px;
+}
+.send-again{
+    border: none;
+    box-shadow: 0 0 8px 2px #001f54;
+    height: 250px;
+    border-radius: 20px;
+
+}
+.cash-section{
+    border: none;
+    box-shadow: 0 0 8px 2px #001f54;
+    height: 100px;
+    border-radius: 20px;
+    
+}
+.balance-number{
+    
+    color: #001f54;
+}
+.mpay-bal{
+    color: #001f54;
+}
+
+
+
+
+
+.navbar{
+    animation: fade-down 0.5s;
+}
+
+@keyframes fade-down{
+    0%{
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}

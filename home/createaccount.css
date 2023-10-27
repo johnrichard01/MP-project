@@ -1,0 +1,30 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+body{
+    background-color: #001f54;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    
+}
+.ftr{
+    background-color: #001f54;
+    padding-left: 125.2px;
+    padding-right: 125.2px;
+    margin: 0;
+}
+.ftr-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+.cont{
+    box-shadow: 0 0 8px 2px #4ea5ff;
+    background-color: #f5f7fa;
+    height: 700px;
+    border-radius: 20px;
+}
+.con{
+    height: 100vh;
+}

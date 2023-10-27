@@ -1,0 +1,42 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+.ftr{
+    background-color: #001f54;
+    padding-left: 125.2px;
+    padding-right: 125.2px;
+    margin: 0;
+}
+.navbar{
+    animation: fade-down 0.5s;
+}
+ol {
+    list-style-type: none;
+    counter-reset: item;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ol > li {
+    display: table;
+    counter-increment: item;
+    margin-bottom: 0.6em;
+  }
+  
+  ol > li:before {
+    content: counters(item, ".");
+    display: table-cell;
+    padding-right: 2rem;
+  }
+  
+
+@keyframes fade-down{
+    0%{
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
