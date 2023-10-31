@@ -10,16 +10,12 @@
 .navbar{
     animation: fade-down 0.5s;
 }
-.pb-bg{
-    background-image: url("../Pictures-Landing-Page/deals-bg.jpg");
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: 50% 50%;
-    margin: 0;
-    padding: 0;
-}
 .txt-dp{
     color: #001f54;
+}
+.dp-bg{
+    background-color: #001f54;
+    color: #f5f7fa;
 }
 .crd-cont{
     

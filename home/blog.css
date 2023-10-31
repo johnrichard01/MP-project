@@ -10,16 +10,21 @@
 .navbar{
     animation: fade-down 0.5s;
 }
-.pb-bg{
-    background-image: url("../Pictures-Landing-Page/blogs-bg-1.jpg");
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    margin: 0;
-    padding: 0;
+.art-pic:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+  }
+
+.title-txt{
+    color: #f5f7fa;
+}
+.blg-lnk:hover{
+    color: #4ea5ff;
 }
 .blg-txt{
     color: #001f54;
+    font-weight: 500;
 }
 .card{
     background-color:  rgba(255, 255, 255, 0.4) ;
