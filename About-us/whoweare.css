@@ -37,6 +37,9 @@
     border-radius: 20px;
     backdrop-filter: blur(5px);
 }
+.p-text{
+    text-indent: 50px;
+}
 .nv-hvr{
     border-bottom: 5px solid white;
   }

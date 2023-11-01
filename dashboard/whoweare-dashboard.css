@@ -36,6 +36,9 @@
     background-color: #001f54;
     color: #f5f7fa;
 }
+.p-text{
+    text-indent: 50px;
+}
 .wwa-div3{
     background-image: url("../Pictures-Landing-Page/whoweare-2.jpg");
     background-repeat: no-repeat;

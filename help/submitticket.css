@@ -10,7 +10,18 @@
 .navbar{
     animation: fade-down 0.5s;
 }
-
+.nv-hvr{
+    border-bottom: 5px solid white;
+  }
+  .nv-hvr:hover{
+  border-color: #4ea5ff;
+  }
+  .ftr-hvr{
+    color: white;
+  }
+  .ftr-hvr:hover{
+    color: #4ea5ff;
+  }
 @keyframes fade-down{
     0%{
         opacity: 0;
