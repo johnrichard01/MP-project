@@ -36,3 +36,10 @@
     border: none;
     box-shadow: 0 0 8px 2px #4ea5ff;
 }
+
+  .ftr-hvr{
+    color: white;
+  }
+  .ftr-hvr:hover{
+    color: #4ea5ff;
+  }
