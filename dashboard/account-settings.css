@@ -26,6 +26,26 @@
 .dropdown-menu > li:hover > .dropdown-submenu {
     display: block;
 }
+.nv-hvr{
+    border-bottom: 5px solid white;
+  }
+  .nv-hvr:hover{
+  border-color: #4ea5ff;
+  }
+  .ftr-hvr{
+    color: white;
+  }
+  .ftr-hvr:hover{
+    color: #4ea5ff;
+  }
+.not-hvr{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.not-hvr:hover{
+
+    border-color:#4ea5ff;
+}
 
 @keyframes fade-down{
     0%{
