@@ -46,6 +46,25 @@
 
     border-color:#4ea5ff;
 }
+.st-bg{
+    background-color: #001f54;
+    color: #f5f7fa;
+}
+.st-content{
+    background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #001f54;
+      padding: 20px;
+      margin-top: 20px;
+      color: #001f54;
+      border-radius: 40px;
+}
+.scss-alrt{
+    display: none;
+      position: fixed;
+      top: 5px;
+      z-index: 1000;
+}
 @keyframes fade-down{
     0%{
         opacity: 0;
