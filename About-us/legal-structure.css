@@ -10,10 +10,21 @@
 .navbar{
     animation: fade-down 0.5s;
 }
+.ls-hdr{
+  background-color: #001f54;
+  color: #f5f7fa;
+}
 .ls-bg{
-    box-shadow: 0 0 8px 2px #001f54;
-    border-radius: 20px;
-    color: #001f54;
+ background-image: url("../Pictures-Landing-Page/legal-structure.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+background-position: 50% 50%;
+}
+.ls-bd{
+  backdrop-filter: blur(5px);
+  background-color: rgba(125, 125, 125, 0.9);
+  color: #f5f7fa;
+  border-radius: 40px;
 }
 .p-text{
   text-indent: 50px;

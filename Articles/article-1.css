@@ -23,6 +23,34 @@
   .ftr-hvr:hover{
     color: #4ea5ff;
   }
+.article-bg{
+  background-color: #001f54;
+  color: #f5f7fa;
+}
+.p-text{
+  text-indent: 40px;
+  font-size: 1.5rem;
+  color: #001f54;
+}
+.blg-lnk:hover{
+  color: #4ea5ff;
+}
+.blg-txt{
+  color: #001f54;
+  font-weight: 500;
+}
+.card{
+  background-color:  rgba(255, 255, 255, 0.4) ;
+  border-radius: 20px;
+}
+.blg-lnk:hover{
+  color: #4ea5ff;
+}
+.art-pic:hover{
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.1);
+}
 @keyframes fade-down{
     0%{
         opacity: 0;

@@ -41,7 +41,27 @@ ol {
   .ftr-hvr:hover{
     color: #4ea5ff;
   }
+.privacy-bg{
+  background-color: #001f54;
+  color: #f5f7fa;
+  text-align: center;
+}
+.privacy-bg2{
+  background-image: url(../Pictures-Landing-Page/privacy-policy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #f5f7fa;
 
+}
+.privacy-brdr{
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(90, 90, 90, 0.6);
+}
+.p-text{
+  text-indent: 40px;
+}
 @keyframes fade-down{
     0%{
         opacity: 0;

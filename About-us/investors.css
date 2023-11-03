@@ -5,12 +5,26 @@
     background-color: #001f54;
     padding-left: 125.2px;
     padding-right: 125.2px;
-    margin: 0;
 }
 .navbar{
     animation: fade-down 0.5s;
 }
+.inv-bg{
+  background-color: #001f54;
+  height: 50vh;
+}
+.inv-txt{
+  color: #f5f7fa;
+}
+.inv-brdr{
+  box-shadow: 0 0 8px 2px #001f54;
+  border-radius: 40px;
+  background-color: #f5f7fa;
 
+}
+.inv-p{
+  text-indent: 50px;
+}
 .nv-hvr{
     border-bottom: 5px solid white;
   }
@@ -23,6 +37,23 @@
   .ftr-hvr:hover{
     color: #4ea5ff;
   }
+.parent-pos{
+  position: relative;
+}
+.pos-1{
+  width: 100%;
+  position: relative;
+  top: 0px;
+  z-index: 0;
+}
+.pos-2{
+  width: 100%;
+  position: relative;
+  top: -35vh;
+  height: 2000px;
+  z-index: 1;
+}
+
 
 @keyframes fade-down{
     0%{
