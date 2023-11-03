@@ -55,7 +55,13 @@
 }
 .pb-btn{
     color: #001f54;
-    box-shadow: 0 0 8px 2px #888;
+    box-shadow: 0 0 8px 2px #001f54;
+    border-radius: 20px;
+}
+.pb-btn:hover{
+    background-color: #001f54;
+    color: #f5f7fa;
+
 }
 .mh-bg{
     background-color: #001f54;
