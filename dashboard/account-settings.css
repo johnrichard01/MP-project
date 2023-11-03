@@ -46,6 +46,24 @@
 
     border-color:#4ea5ff;
 }
+.account-bg{
+    background-color: #001f54;
+    color: #f5f7fa;
+}
+.card{
+    border-color: #001f54;
+    border-radius: 40px;
+}
+.as-b{
+    color: #001f54;
+}
+.setting-b{
+    height: 100px;
+    border-color: #001f54;
+}
+.as-b:hover{
+    color: #4ea5ff;
+}
 
 @keyframes fade-down{
     0%{

@@ -19,6 +19,12 @@
   .ftr-hvr{
     color: white;
   }
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+  }
   .ftr-hvr:hover{
     color: #4ea5ff;
   }
@@ -28,6 +34,7 @@
   .faq-title{
     color: #f5f7fa;
   }
+  
 
 .faq-section {
     width: 100%;

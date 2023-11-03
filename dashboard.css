@@ -28,7 +28,10 @@
     display: block;
 }
 
-
+.dashboard-bg{
+    background-color: #001f54;
+    color: #f5f7fa;
+}
 .balance-section{
     border: none;
     box-shadow: 0 0 8px 2px #001f54;
