@@ -91,7 +91,29 @@
 .navbar{
     animation: fade-down 0.5s;
 }
-
+.mh-bg{
+    background-color: #001f54;
+    color: #f5f7fa;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.mb-txt{
+    color: #001f54;
+}
+.scss-alrt{
+    display: none;
+      position: fixed;
+      top: 10px;
+      left: auto;
+      right: auto;
+      z-index: 1000;
+}
+.sendagain-txt{
+    color: #001f54;
+}
+.sendagain-txt:hover{
+    color: #4ea5ff;
+}
 @keyframes fade-down{
     0%{
         opacity: 0;
