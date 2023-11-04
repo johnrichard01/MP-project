@@ -30,6 +30,9 @@
     font-weight: 500;
 
 }
+.first-txt{
+  color: #001f54;
+}
   .navbar{
     animation: fade-down 0.5s;
 }
