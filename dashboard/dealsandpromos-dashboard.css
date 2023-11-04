@@ -46,6 +46,20 @@
 
     border-color:#4ea5ff;
 }
+.txt-dp{
+    color: #001f54;
+}
+.dp-bg{
+    background-color: #001f54;
+    color: #f5f7fa;
+}
+
+.card{
+    color: #001f54;
+}
+.card-title:hover{
+    color: #4ea5ff;
+}
 @keyframes fade-down{
     0%{
         opacity: 0;
